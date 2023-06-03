@@ -1,0 +1,6 @@
+<launch>
+
+	<node name="test_publisher" pkg="asv_bridge" type="test_node" />
+	<node name="test_suscriber" pkg="asv_bridge" type="test_node.py" />
+
+</launch>
